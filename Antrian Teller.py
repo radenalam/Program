@@ -1,4 +1,6 @@
-#!/usr/bin/env python3
+import tkinter
+from tkinter import ttk
+from tkinter.messagebox import showinfo
 
 antrian_tl = []
 antrian_cs = []
