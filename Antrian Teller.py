@@ -1,6 +1,4 @@
 import tkinter
-from tkinter import ttk
-from tkinter.messagebox import showinfo
 
 antrian_tl = []
 antrian_cs = []
@@ -9,6 +7,13 @@ nomor_teller = 1
 nomor_cs = 1
 nomor_cb = 1
 
+main_window = tkinter.Tk()
+label = tkinter.Label(main_window, text="Selamat Datang di Bank")
+
+label.pack()
+main_window.mainloop()
+
+""""
 while True:
 		print("SELAMAT DATANG DI BANK")
 		print("1.Cetak antrian Teller")
@@ -46,3 +51,4 @@ while True:
 		else:
 			print("pilihan tidak tersedia")
 			break
+"""
